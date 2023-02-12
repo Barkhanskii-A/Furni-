@@ -1,0 +1,90 @@
+.craft {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		min-height: 30rem;
+		margin-bottom: 16.2rem;
+		.craft-left {
+			&__wrp {
+				max-width: 228px;
+			}
+			&__title {
+				font-weight: 600;
+				font-size: 3.4rem;
+				line-height: 41px;
+				color: $colorPrymary;
+				margin-bottom: 2.7rem;
+			}
+			&__desc {
+				font-size: 14px;
+				line-height: 1.71;
+				color: $colorText;
+				margin-bottom: 3.3rem;
+			}
+		}
+		.craft-right {
+			&__wrp {
+				max-width: 73.7rem;
+				display: flex;
+			}
+		}
+		.card-inner {
+			margin-right: 7.9rem;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+		.nordic-chair {
+			text-align: center;
+			&__img {
+				max-width: max-content;
+				margin-bottom: 4.6rem;
+			}
+			&__title {
+				margin-bottom: 1px;
+			}
+		}
+		.aero-chair {
+			text-align: center;
+			&__img {
+				max-width: max-content;
+				margin-bottom: 4.9rem;
+			}
+			&__title {
+				margin-bottom: 1px;
+			}
+		}
+		.ergonomic-chair {
+			text-align: center;
+			&__img {
+				margin-bottom: 7rem;
+			}
+			&__title {
+				margin-bottom: 1px;
+			}
+		}
+		.card-img {
+			max-width: 100%;
+			height: auto;
+			width: 100%;
+		}
+	}
+}
+.card-title {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.5;
+	color: $colorPrymary;
+}
+.card-price {
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.33;
+	color: $colorPrymary;
+	&::before {
+		content: '$';
+		padding-right: 3px;
+	}
+}

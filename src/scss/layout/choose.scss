@@ -1,0 +1,96 @@
+.choose {
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__title {
+		text-transform: capitalize;
+		font-weight: 600;
+		font-size: 34px;
+		line-height: 1.21;
+		color: $colorPrymary;
+		margin-bottom: 27px;
+	}
+	&__desc {
+		max-width: 44.4rem;
+		min-height: 4.2rem;
+		font-weight: 400;
+		font-size: 1.4rem;
+		line-height: 1.71;
+		color: $colorText;
+	}
+}
+.choose-benefits {
+	&__inner {
+		max-width: 47rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2.7rem;
+	}
+	&__box {
+		padding-top: 8.7rem;
+		max-width: 21.6rem;
+		&:nth-child(3) {
+			padding-top: 1.6rem;
+		}
+		&:nth-child(4) {
+			padding-top: 1.6rem;
+		}
+	}
+	&__img {
+		display: block;
+		position: relative;
+		& img {
+			width: 2.7rem;
+			height: 2.7rem;
+			margin-bottom: 1.2rem;
+		}
+		&::after {
+			position: absolute;
+			content: '';
+			display: inline-block;
+			width: 3.3rem;
+			height: 3.3rem;
+			background: rgba(53, 115, 110, 0.2);
+			border-radius: 50%;
+			top: 3px;
+			left: 12px;
+		}
+	}
+	&__subtitle {
+		text-transform: capitalize;
+		font-weight: 600;
+		font-size: 1.4rem;
+		line-height: 1.5;
+		color: $colorPrymary;
+		margin-bottom: .9rem;
+	}
+	&__desc {
+		min-height: 6.6rem;
+	}
+}
+.choose-img {
+	position: relative;
+	margin-bottom: 19.5rem;
+	&__img-rectangle {
+		position: absolute;
+		width: 29.6rem;
+		height: 30.7rem;
+		left: -32rem;
+    top: 11.3rem;
+		background: rgba(53, 115, 110, 0.1);
+		border-radius: 2rem;
+	}
+	&__img-dots {
+		position: absolute;
+		top: -64px;
+    left: -94px;
+		z-index: 2;
+	}
+	&__img-ibg {
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+		z-index: 3;
+	}
+}

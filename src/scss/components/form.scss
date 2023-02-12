@@ -1,0 +1,56 @@
+.form-example {
+	padding-top: 9.7rem;
+	margin-bottom: 13.8rem;
+	&__inner {
+		display: flex;
+		gap: 1.5rem;
+		min-height: 4.8rem;
+	}
+	&__input {
+		padding: 1.2rem 0 1.7rem 2.2rem;
+		width: 26.2rem;
+		height: 4.58rem;
+		border: 1px solid #c4c4c4;
+		border-radius: 10px;
+	}
+	&__btn {
+		position: relative;
+		width: 5rem;
+		height: 4.77rem;
+		background: #35736e;
+		border: 1px solid #c4c4c4;
+		border-radius: 10px;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		transition: all 0.15s ease-in;
+		& img {
+			position: absolute;
+			min-height: 2.7rem;
+			max-width: 2.9rem;
+			top: 9px;
+			left: 9px;
+		}
+		&:hover {
+			box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+			transform: scale(0.9);
+		}
+		&:active {
+			opacity: 0.7;
+		}
+	}
+}
+.label {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: end;
+	margin-bottom: 2.4rem;
+	&__icon {
+		margin-right: 1.2rem;
+	}
+	&__title {
+		font-weight: 600;
+		font-size: 1.8rem;
+		line-height: 2.2rem;
+		color: $colorPrymary;
+	}
+}

@@ -1,0 +1,21 @@
+.btn {
+	padding: 1.1rem 3.5rem;
+	display: inline-block;
+	font-weight: 500;
+	line-height: 1.75;
+	text-align: center;
+	background: $colorPrymary;
+	text-align: center;
+	color: $colorWhite;
+	border-radius: 30px;
+	transition: all 0.2s ease-in;
+	&:hover {
+		opacity: 1;
+		transform: scale(0.9);
+		box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+	}
+	&:active {
+		opacity: .5;
+		transform: scale(0.9);
+	}
+}

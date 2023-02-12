@@ -1,0 +1,149 @@
+.footer {
+	min-height: 76.7rem;
+	background: $colorWhite;
+	&__container {
+		position: relative;
+	}
+	&__img {
+		position: absolute;
+		max-width: 45.8rem;
+		top: -8rem;
+		left: 68.7rem;
+		& img {
+			max-width: 100%;
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
+	}
+	&__logo {
+		margin-bottom: 1.7rem;
+	}
+	&__text-inner {
+		display: flex;
+		min-height: 11.2rem;
+		margin-bottom: 4.5rem;
+		& .text-desc {
+			padding-top: 0.5rem;
+			margin-right: 6.5rem;
+			width: 36rem;
+			min-height: 9.7rem;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 1.71;
+			color: $colorText;
+		}
+	}
+	&__nav {
+		& .list-about {
+			margin-right: 8.7rem;
+			width: 7.2rem;
+		}
+	}
+	&__social {
+		display: flex;
+		gap: 1.1rem;
+		margin-bottom: 6.8rem;
+	}
+	&__copyright {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.nav {
+	display: flex;
+	&__list {
+		max-width: 11rem;
+		&:nth-child(2) {
+			margin-right: 5.4rem;
+		}
+		&:nth-child(3) {
+			margin-right: 4rem;
+		}
+	}
+	&__item {
+		margin-top: 0.2rem;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 2;
+	}
+	&__link {
+		color: $colorText;
+		background-image: linear-gradient($colorYellow, currentColor);
+		background-position: 0% 110%;
+		background-repeat: no-repeat;
+		background-size: 0% 0.2rem;
+		transition: background-size 0.2s ease-in;
+		&:hover {
+			opacity: 1;
+			background-size: 100% 0.2rem;
+		}
+		&:active {
+			opacity: 0.5;
+		}
+	}
+}
+.social {
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		width: 4.1rem;
+		height: 4.1rem;
+		background: $colorGray;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+		transition: all 0.15s ease-in;
+		& svg {
+			width: 100%;
+		}
+		&:hover {
+			transform: scale(0.9);
+			background: $colorGreen;
+			fill: $colorWhite;
+		}
+	}
+}
+.copyright {
+	min-height: 2.4rem;
+	&__left-text {
+		font-weight: 400;
+		font-size: 1.3rem;
+		line-height: 1.85;
+		color: $colorText;
+		background-image: linear-gradient($colorYellow, currentColor);
+		background-position: 0% 110%;
+		background-repeat: no-repeat;
+		background-size: 0% 0.2rem;
+		transition: background-size 0.2s ease-in;
+		&:hover {
+			opacity: 1;
+			background-size: 100% 0.2rem;
+		}
+		&:active {
+			opacity: 0.5;
+		}
+	}
+	&__right-text {
+		display: flex;
+		gap: 4.2rem;
+		& a {
+			font-weight: 400;
+			font-size: 1.4rem;
+			line-height: 1.71;
+			color: $colorText;
+			background-image: linear-gradient($colorYellow, currentColor);
+			background-position: 0% 110%;
+			background-repeat: no-repeat;
+			background-size: 0% 0.2rem;
+			transition: background-size 0.2s ease-in;
+			&:hover {
+				opacity: 1;
+				background-size: 100% 0.2rem;
+			}
+			&:active {
+				opacity: 0.5;
+			}
+		}
+	}
+}

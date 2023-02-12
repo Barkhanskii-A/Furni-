@@ -1,0 +1,162 @@
+/*<section class="slider">
+<div class="slider__container">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide__icon">
+          <img src="@img/icons/twiter.png" alt="">
+        </div>
+        <h3 class="slide__title">AOD New York @aod <span>/ 35 min</span></h3>
+        <p class="slide__text">1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
+          nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide__icon">
+          <img src="@img/icons/twiter.png" alt="">
+        </div>
+        <h3 class="slide__title">AOD New York @aod <span>/ 35 min</span></h3>
+        <p class="slide__text">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
+          nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide__icon">
+          <img src="@img/icons/twiter.png" alt="">
+        </div>
+        <h3 class="slide__title">AOD New York @aod <span>/ 35 min</span></h3>
+        <p class="slide__text">3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
+          nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+  <!-- Стрелки -->
+  <!-- <div class="swiper-button-next"></div>
+       <div class="swiper-button-prev"></div> -->
+</section> */
+
+.swiper {
+	height: 100%;
+}
+.swiper-slide {
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: auto;
+	padding-bottom: 40px;
+}
+.swiper-slide img {
+	width: 86;
+	height: 86px;
+	border-radius: 100%;
+	object-fit: cover;
+}
+// Стрелки
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	left: 1 !important;
+	right: auto;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	left: 0 !important;
+	right: auto;
+  top: 31%;        //двигаем вверх стрелки
+}
+.swiper-pagination-bullet {     //пагинация
+	width: 7px;
+	height: 7px;
+}
+.swiper-pagination-bullet-active {
+	background: #385d50;
+	width: 7px;
+	height: 7px;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+	right: 24px !important;
+	left: auto;
+   top: 31%;         //двигаем вверх стрелки
+}
+.slider__container {
+  margin-bottom: 4.1rem;
+}
+.slide {
+	&__title {
+		font-weight: 600;
+		font-size: 34px;
+		line-height: 1.21;
+		text-align: center;
+		color: $colorPrymary;
+		margin-bottom: 4.7rem;
+	}
+	&__text {
+		max-width: 75.9rem;
+		min-height: 13.2rem;
+		font-size: 1.8rem;
+		line-height: 1.78;
+		text-align: center;
+		color: $colorBlack;
+		margin-bottom: 4.2rem;
+		&::before {
+			content: '"';
+		}
+		&::after {
+			content: '"';
+		}
+	}
+	&__icon {
+		margin-bottom: 0.4rem;
+	}
+	&__person-name {
+		margin-bottom: 0.4rem;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+		color: $colorBlack;
+	}
+
+	&__person-ceo {
+		margin-bottom: 4rem;
+		font-size: 1.3rem;
+		line-height: 2.46;
+		text-align: center;
+		color: $colorPrymary;
+	}
+}
+.swiper-button-next {
+	color: $colorWhite;
+	width: 5.8rem;
+	height: 5.8rem;
+  background: #385D50;
+	border-radius: 100%;
+	transition: all 0.15s ease-in;
+  &::after {
+    content: 'next';
+    font-size: 1.8rem;   //задаем размер стрелок
+  }
+	&:hover {
+		transform: scale(0.92);
+	}
+}
+.swiper-button-prev {
+	color: $colorWhite;
+	width: 5.8rem;
+	height: 5.8rem;
+	background: #385D50;
+	border-radius: 100%;
+	transition: all 0.15s ease-in;
+  &::after {
+    content: 'prev';
+    font-size: 1.8rem;     //задаем размер стрелок
+  }
+	&:hover {
+		transform: scale(0.92);
+	}
+}
+.swiper-button-disabled {    //неактивная кнопка
+  color: $colorBlack;
+  background: #C4C4C4;
+}

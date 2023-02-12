@@ -1,0 +1,50 @@
+.presentation {
+	background: $colorGreen;
+	margin-bottom: 164px;
+	overflow: hidden;
+	&__container {
+		margin-top: 15.7rem;
+		height: 55.3rem;
+		display: flex;
+	}
+	&__title {
+		font-weight: 600;
+		font-size: 5.4rem;
+		line-height: 65px;
+		color: $colorWhite;
+		margin-bottom: 11.7rem;
+	}
+	&__buttons-box {
+		display: flex;
+		gap: 1.4rem;
+	}
+	&__btn-shop {
+		background: $colorYellow;
+		color: $colorPrymary;
+	}
+	&__btn-explore {
+		border: 2px solid rgba(255, 255, 255, 0.29);
+		background-color: $colorGreen;
+	}
+	&__img-wrp {
+		min-height: 72.3rem;
+		position: relative;
+		flex: 1 0 auto;
+		& .img-sofa-ibg {
+			position: absolute;
+			z-index: 3;
+			max-width: 100%;
+			height: auto;
+			width: 100%;
+		}
+		& .img-dotted {
+			display: block;
+			max-width: 100%;
+			min-height: 17.6rem;
+			position: absolute;
+			top: 2.12rem;
+			right: -7.5rem;
+			z-index: 2;
+		}
+	}
+}

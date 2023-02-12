@@ -1,0 +1,74 @@
+.card-item {
+	position: relative;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+    margin-bottom: 9.5rem;
+	}
+	&__inner {
+		position: relative;
+		max-width: 34.2rem;
+		min-height: 12.5rem;
+		display: flex;
+		gap: 3.6rem;
+		&::after {
+			content: '';
+			display: inline-block;
+			position: absolute;
+			width: 98px;
+			height: 98px;
+			left: 0px;
+			top: 18px;
+			background: rgba(53, 115, 110, 0.3);
+			border-radius: 1rem;
+			z-index: -1;
+		}
+	}
+	&__img-nordic {
+    height: 12.5rem;
+	}
+	&__text {
+		padding-top: 15px;
+		max-width: 21.1rem;
+	}
+	&__title {
+		text-transform: capitalize;
+		font-weight: 700;
+		font-size: 1.4rem;
+		line-height: 1.57;
+		color: $colorBlack;
+		margin-bottom: 1.1rem;
+	}
+	&__desc {
+		font-weight: 400;
+		font-size: 1.4rem;
+		line-height: 1.57;
+		color: $colorText;
+		margin-bottom: 1.1rem;
+	}
+	&__link {
+		font-weight: 700;
+		font-size: 1.2rem;
+		line-height: 1.83;
+		color: $colorText;
+		background-image: linear-gradient($colorYellow, currentColor);
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		background-size: 0% 0.3rem;
+		transition: background-size 0.3s;
+		&:hover {
+			color: $colorPrymary;
+			background-size: 100% 0.3rem;
+		}
+    &:active {
+      opacity: .6;
+    }
+	}
+	&__img-aero {
+    height: 10.7rem;
+	}
+	&__img-ergonomic {
+    height: 12rem;
+	}
+}

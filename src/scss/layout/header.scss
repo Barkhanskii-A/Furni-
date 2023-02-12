@@ -1,0 +1,176 @@
+.header {
+	background: $colorGreen;
+	&__container {
+		min-height: 6.4rem;
+		display: flex;
+		justify-content: space-between;
+		.menu {
+			&__list {
+				display: flex;
+				padding-top: 3.5rem;
+				li {
+					position: relative;
+					padding: 0 4.3rem 0 0;
+					&:nth-child(2) {
+						padding: 0 5.2rem 0 0;
+					}
+					&:nth-child(3),
+					&:nth-child(4) {
+						padding: 0 4.4rem 0 0;
+					}
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+			&__link {
+				font-weight: 500;
+				color: $colorWhite;
+				padding-bottom: 0.7rem;
+				opacity: 0.6;
+				background-image: linear-gradient($colorYellow, currentColor);
+				background-position: 0% 100%;
+				background-repeat: no-repeat;
+				background-size: 0% 0.3rem;
+				transition: background-size 0.3s;
+				&:hover {
+					opacity: 1;
+					background-size: 100% 0.3rem;
+				}
+				&:active {
+					opacity: 0.5;
+				}
+			}
+
+			@media (max-width: 767px) {
+				&__body {
+					position: fixed;
+					width: 100%;
+					height: 100%;
+					top: -200%;
+					left: 0;
+					background-color: $colorGreen;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					transition: 0.7s all;
+					&.active {
+						top: 0;
+					}
+				}
+				&__list {
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					li {
+						padding: 0 0 4.4rem 0;
+						&:nth-child(2),
+						&:nth-child(3),
+						&:nth-child(4) {
+							padding: 0 0 4.4rem 0;
+						}
+					}
+				}
+				&__link {
+					opacity: 1;
+					color: $colorWhite;
+					font-size: 3rem;
+				}
+			}
+		}
+		.hamburger {
+			display: none;
+			margin-top: 3rem;
+			@media (max-width: 767px) {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				position: absolute;
+				top: 0;
+				right: 20px;
+				width: 30px;
+				height: 21px;
+				z-index: 5;
+				span {
+					display: block;
+					width: 100%;
+					height: 3px;
+					background-color: $colorWhite;
+					transition: 0.3s all;
+				}
+				&.active {
+					span {
+						background-color: $colorWhite;
+						&:nth-child(1) {
+							transform: translateY(9px) rotate(-45deg);
+						}
+						&:nth-child(2) {
+							display: none;
+						}
+						&:nth-child(3) {
+							transform: translateY(-9px) rotate(45deg);
+						}
+					}
+				}
+			}
+		}
+	}
+	&__logo {
+		padding-top: 2.4rem;
+		& .logo-link {
+			color: $colorWhite;
+		}
+	}
+}
+.logo {
+	height: 3.9rem;
+	width: 8.6rem;
+	transition: transform 0.3s ease-in-out;
+	&:hover {
+		transform: scale(0.9);
+	}
+	&:active {
+		opacity: 0.7;
+	}
+	& a {
+		font-weight: 500;
+		font-size: 3.2rem;
+		color: $colorBlack;
+	}
+}
+// Бургер ==============================================================================================================================================
+/*
+.hamburger {
+  display: none;
+  @media (max-width:  767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 30px;
+    height: 21px;
+    z-index: 5;
+    span {
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: #fff;
+      transition: .3s all;
+    }
+    &.active {
+      span {
+        &:nth-child(1) {
+          transform: translateY(9px) rotate(-45deg);
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+        &:nth-child(3) {
+          transform: translateY(-9px) rotate(45deg);
+        }
+      }
+    }
+  }
+}*/
