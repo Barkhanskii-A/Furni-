@@ -6,10 +6,10 @@
 	&__title {
 		text-transform: capitalize;
 		font-weight: 600;
-		font-size: 34px;
+		font-size: 3.4rem;
 		line-height: 1.21;
 		color: $colorPrymary;
-		margin-bottom: 27px;
+		margin-bottom: 2.7rem;
 	}
 	&__desc {
 		max-width: 44.4rem;
@@ -38,7 +38,6 @@
 		}
 	}
 	&__img {
-		display: block;
 		position: relative;
 		& img {
 			width: 2.7rem;

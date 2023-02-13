@@ -555,7 +555,7 @@ sup {
 }
 .presentation__container {
   margin-top: 15.7rem;
-  height: 55.3rem;
+  min-height: 55.3rem;
   display: flex;
 }
 .presentation__title {
@@ -590,7 +590,6 @@ sup {
   width: 100%;
 }
 .presentation__img-wrp .img-dotted {
-  display: block;
   max-width: 100%;
   min-height: 17.6rem;
   position: absolute;
@@ -636,7 +635,6 @@ sup {
   text-align: center;
 }
 .craft__container .nordic-chair__img {
-  max-width: max-content;
   margin-bottom: 4.6rem;
 }
 .craft__container .nordic-chair__title {
@@ -669,15 +667,14 @@ sup {
 
 .card-title {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
   color: #2F2F2F;
 }
 
 .card-price {
-  display: block;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.33;
   color: #2F2F2F;
 }
@@ -693,10 +690,10 @@ sup {
 .choose__title {
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 34px;
+  font-size: 3.4rem;
   line-height: 1.21;
   color: #2F2F2F;
-  margin-bottom: 27px;
+  margin-bottom: 2.7rem;
 }
 .choose__desc {
   max-width: 44.4rem;
@@ -724,7 +721,6 @@ sup {
   padding-top: 1.6rem;
 }
 .choose-benefits__img {
-  display: block;
   position: relative;
 }
 .choose-benefits__img img {
@@ -1192,7 +1188,7 @@ sup {
     margin-bottom: 9rem;
   }
   .presentation__container {
-    height: 39rem;
+    min-height: 33rem;
     margin-top: 4.7rem;
   }
   .presentation__title {
@@ -1262,5 +1258,113 @@ sup {
     width: 70%;
     grid-row: 2/3;
     grid-column: 3/4;
+  }
+}
+@media (max-width: 768px) {
+  .presentation {
+    margin-bottom: 3.2rem;
+  }
+  .presentation__container {
+    margin-top: 5rem;
+    height: 32rem;
+  }
+  .presentation__title {
+    font-size: 3.4rem;
+    line-height: 35px;
+    margin-bottom: 5.7rem;
+  }
+  .presentation__img-wrp .img-dotted {
+    max-width: 50%;
+    height: 1rem;
+    top: -1.88rem;
+  }
+  .craft__container {
+    margin-bottom: 10.2rem;
+  }
+  .craft__container .craft-left__title {
+    font-size: 2.4rem;
+    line-height: 31px;
+    color: #2F2F2F;
+    margin-bottom: 1.7rem;
+  }
+  .craft__container .craft-left__desc {
+    font-size: 1.3rem;
+    line-height: 1.71;
+    margin-bottom: 2.3rem;
+  }
+  .craft__container .craft-right__wrp {
+    height: 27.1rem;
+  }
+  .craft__container .card-inner {
+    margin-right: 2.9rem;
+  }
+  .craft__container .nordic-chair {
+    align-self: flex-end;
+  }
+  .craft__container .nordic-chair__img {
+    margin-bottom: 1.8rem;
+  }
+  .craft__container .aero-chair {
+    align-self: flex-end;
+  }
+  .craft__container .aero-chair__img {
+    margin-bottom: 1.8rem;
+  }
+  .craft__container .ergonomic-chair {
+    align-self: flex-end;
+  }
+  .craft__container .ergonomic-chair__img {
+    margin-bottom: 1.8rem;
+  }
+  .card-title {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .card-price {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+  .choose__title {
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .choose__desc {
+    max-width: 27.4rem;
+    font-size: 1.3rem;
+  }
+  .choose-benefits__inner {
+    max-width: 27rem;
+    gap: 1.7rem;
+  }
+  .choose-benefits__box {
+    padding-top: 1.7rem;
+    max-width: 8.6rem;
+  }
+  .choose-benefits__box:nth-child(3) {
+    padding-top: 0;
+  }
+  .choose-benefits__box:nth-child(4) {
+    padding-top: 0;
+  }
+  .choose-benefits__subtitle {
+    font-size: 1.3rem;
+    line-height: 1.3;
+  }
+  .choose-img {
+    height: auto;
+    max-width: 32rem;
+    margin-bottom: 9.5rem;
+  }
+  .choose-img__img-rectangle {
+    width: 15.6rem;
+    height: 17.7rem;
+    left: -16rem;
+    top: 14.3rem;
+  }
+  .choose-img__img-dots {
+    top: -85px;
+    left: -53px;
+    width: 15.6rem;
+    height: 20.7rem;
   }
 }

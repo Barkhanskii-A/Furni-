@@ -4,7 +4,7 @@
 	overflow: hidden;
 	&__container {
 		margin-top: 15.7rem;
-		height: 55.3rem;
+		min-height: 55.3rem;
 		display: flex;
 	}
 	&__title {
@@ -38,7 +38,6 @@
 			width: 100%;
 		}
 		& .img-dotted {
-			display: block;
 			max-width: 100%;
 			min-height: 17.6rem;
 			position: absolute;

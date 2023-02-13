@@ -38,7 +38,6 @@
 		.nordic-chair {
 			text-align: center;
 			&__img {
-				max-width: max-content;
 				margin-bottom: 4.6rem;
 			}
 			&__title {
@@ -73,14 +72,13 @@
 }
 .card-title {
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 1.6rem;
 	line-height: 1.5;
 	color: $colorPrymary;
 }
 .card-price {
-	display: block;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 1.8rem;
 	line-height: 1.33;
 	color: $colorPrymary;
 	&::before {
