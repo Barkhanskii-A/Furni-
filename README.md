@@ -1,5 +1,5 @@
-# Furni
-Проект созданный на GULP
+# Furni  http://barkhanskii-a.github.io.furni/
+Проект созданный на GULP 
 
 Установить все зависимости
 
