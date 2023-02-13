@@ -1184,3 +1184,61 @@ sup {
   color: #000;
   background: #C4C4C4;
 }
+
+.presentation {
+  margin-bottom: 9rem;
+}
+.presentation__container {
+  height: 39rem;
+  margin-top: 4.7rem;
+}
+.presentation__title {
+  font-size: 4.4rem;
+  margin-bottom: 7rem;
+}
+.presentation__img-wrp {
+  max-width: 50%;
+  margin-left: 7rem;
+}
+
+.craft__container .craft-right__wrp {
+  max-width: 67rem;
+}
+.craft__container .card-inner {
+  margin-right: 6rem;
+}
+
+.choose-img {
+  width: 40rem;
+}
+.choose-img__img-rectangle {
+  height: 50%;
+  width: 50%;
+  left: -21rem;
+  top: 16.3rem;
+}
+
+.interior__container {
+  margin-bottom: 6rem;
+}
+.interior__container .interior-img__box {
+  width: 62.7rem;
+}
+.interior__container .interior-img__big-img {
+  width: 60%;
+}
+.interior__container .interior-img__average-img {
+  width: 40%;
+  height: 40%;
+  top: 21rem;
+  left: 27.1rem;
+}
+.interior__container .interior-img__line {
+  left: 40.5rem;
+  top: 18.7rem;
+}
+.interior__container .interior-img__small-img {
+  width: 25%;
+  top: 61px;
+  left: 328px;
+}

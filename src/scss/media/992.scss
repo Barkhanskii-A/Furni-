@@ -1,0 +1,61 @@
+.presentation {
+	margin-bottom: 9rem;
+	&__container {
+		height: 39rem;
+		margin-top: 4.7rem;
+	}
+	&__title {
+		font-size: 4.4rem;
+		margin-bottom: 7rem;
+	}
+	&__img-wrp {
+		max-width: 50%;
+		margin-left: 7rem;
+	}
+}
+.craft__container {
+	.craft-right__wrp {
+		max-width: 67rem;
+	}
+	.card-inner {
+		margin-right: 6rem;
+	}
+}
+.choose-img {
+	width: 40rem;
+	&__img-rectangle {
+		height: 50%;
+		width: 50%;
+		left: -21rem;
+		top: 16.3rem;
+	}
+}
+
+.interior {
+	&__container {
+		margin-bottom: 6rem;
+		.interior-img {
+			&__box {
+				width: 62.7rem;
+			}
+			&__big-img {
+				width: 60%;
+			}
+			&__average-img {
+				width: 40%;
+				height: 40%;
+				top: 21rem;
+				left: 27.1rem;
+			}
+			&__line {
+				left: 40.5rem;
+				top: 18.7rem;
+			}
+			&__small-img {
+				width: 25%;
+				top: 61px;
+				left: 328px;
+			}
+		}
+	}
+}
