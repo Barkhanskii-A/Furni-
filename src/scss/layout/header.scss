@@ -85,7 +85,7 @@
 				display: flex;
 				flex-direction: column;
 				justify-content: space-between;
-				position: absolute;
+				position: fixed;
 				top: 0;
 				right: 20px;
 				width: 30px;
@@ -95,12 +95,12 @@
 					display: block;
 					width: 100%;
 					height: 3px;
-					background-color: $colorWhite;
+					background-color: $colorYellow;
 					transition: 0.3s all;
 				}
 				&.active {
 					span {
-						background-color: $colorWhite;
+						background-color: $colorYellow;
 						&:nth-child(1) {
 							transform: translateY(9px) rotate(-45deg);
 						}
