@@ -1,4 +1,4 @@
-# Furni  http://barkhanskii-a.github.io.furni/
+# Furni  https://barkhanskii-a.github.io/Furni-/
 Проект созданный на GULP 
 
 Установить все зависимости
