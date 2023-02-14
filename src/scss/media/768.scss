@@ -3,7 +3,7 @@
 		margin-bottom: 3.2rem;
 		&__container {
 			margin-top: 5rem;
-			height: 32rem;
+			min-height: 32rem;
 		}
 		&__title {
 			font-size: 3.4rem;
@@ -11,6 +11,7 @@
 			margin-bottom: 5.7rem;
 		}
 		&__img-wrp {
+			min-height: 32rem;
 			& .img-dotted {
 				max-width: 50%;
 				height: 1rem;
@@ -129,7 +130,7 @@
 					height: 46rem;
 					max-width: 33rem;
 					grid-template-rows: 1fr 1fr;
-					grid-template-columns: .5fr .5fr;
+					grid-template-columns: 0.5fr 0.5fr;
 					gap: 1rem;
 				}
 				&__big-img {
@@ -173,7 +174,7 @@
 					justify-content: space-between;
 					& span {
 						width: 12.4rem;
-						padding-left: .3rem;
+						padding-left: 0.3rem;
 						font-size: 1.4rem;
 						line-height: 1.36;
 						margin-bottom: 2.4rem;
@@ -196,4 +197,103 @@
 		}
 	}
 	// ===================Card===================
+	.card-item {
+		&__container {
+			margin-bottom: 6.5rem;
+		}
+		&__inner {
+			max-width: 24.2rem;
+			min-height: 10.5rem;
+			gap: 2.6rem;
+			&::after {
+				width: 78px;
+				height: 78px;
+			}
+		}
+		&__img-nordic {
+			height: 10.5rem;
+		}
+		&__text {
+			padding-top: 0;
+			max-width: 10.1rem;
+		}
+		&__title {
+			font-size: 1.4rem;
+			line-height: 1;
+			margin-bottom: 1rem;
+		}
+		&__desc {
+			font-weight: 400;
+			font-size: 1.3rem;
+			line-height: 1.4;
+			margin-bottom: 1rem;
+		}
+		&__link {
+			line-height: 1.6;
+		}
+		&__img-nordic {
+			height: 14rem;
+		}
+		&__img-aero {
+			height: 13rem;
+		}
+		&__img-ergonomic {
+			height: 13rem;
+		}
+	}
+	// ===================Testimonials Slider===========
+	.swiper-slide {
+		padding-bottom: 2rem;
+	}
+	// Стрелки
+	.swiper-button-prev,
+	.swiper-rtl .swiper-button-next {
+		top: 71%; //двигаем стрелки
+	}
+	.swiper-button-next,
+	.swiper-rtl .swiper-button-prev {
+		top: 71%; //двигаем стрелки
+	}
+	.slider__container {
+		margin-bottom: 6.1rem;
+	}
+	.slide {
+		&__title {
+			font-size: 3rem;
+			line-height: 1.21;
+			margin-bottom: 3.7rem;
+		}
+	}
+	// ======================= Resent======================
+	.resent-blog {
+		&__container {
+			padding-bottom: 8.9rem;
+		}
+		&__title {
+			font-size: 3rem;
+			line-height: 1.21;
+		}
+	}
+	// ======================= FOOTER======================
+	.form-example {
+		padding-top: 5.7rem;
+		margin-bottom: 6.8rem;
+	}
+	.footer {
+		&__img {
+			position: absolute;
+			top: -3rem;
+			left: 58.7rem;
+			& img {
+				max-width: 80%;
+				width: 80%;
+			}
+		}
+		&__logo {
+			margin-bottom: 1.7rem;
+		}
+		&__text-inner {
+			margin-bottom: 3.5rem;
+		}
+	}
 }

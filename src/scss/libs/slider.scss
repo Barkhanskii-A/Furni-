@@ -41,15 +41,14 @@
 .swiper-slide {
 	display: flex;
 	flex-direction: column;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: auto;
-	padding-bottom: 40px;
+	padding-bottom: 4rem;
 }
 .swiper-slide img {
-	width: 86;
-	height: 86px;
+	width: 8.6rem;
+	height: 8.6rem;
 	border-radius: 100%;
 	object-fit: cover;
 }
@@ -86,7 +85,7 @@
 .slide {
 	&__title {
 		font-weight: 600;
-		font-size: 34px;
+		font-size: 3.4rem;
 		line-height: 1.21;
 		text-align: center;
 		color: $colorPrymary;

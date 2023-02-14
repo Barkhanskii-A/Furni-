@@ -2,7 +2,7 @@
 	.presentation {
 		margin-bottom: 9rem;
 		&__container {
-			min-height: 33rem;
+			min-height: 45rem;
 			margin-top: 4.7rem;
 		}
 		&__title {
@@ -10,7 +10,7 @@
 			margin-bottom: 7rem;
 		}
 		&__img-wrp {
-			max-width: 50%;
+			min-height: 45rem;
 			margin-left: 7rem;
 		}
 	}
