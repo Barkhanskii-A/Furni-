@@ -119,6 +119,81 @@
 			height: 20.7rem;
 		}
 	}
-  // ===================Interior===================
-  
+	// ===================Interior===================
+	.interior {
+		margin-bottom: 6.8rem;
+		&__container {
+			min-height: 46rem;
+			.interior-img {
+				&__box {
+					height: 46rem;
+					max-width: 33rem;
+					grid-template-rows: 1fr 1fr;
+					grid-template-columns: .5fr .5fr;
+					gap: 1rem;
+				}
+				&__big-img {
+					width: 28rem;
+					height: 27rem;
+					grid-row-start: 1;
+					grid-column-start: 1;
+					grid-row-end: 2;
+					grid-column-end: 3;
+				}
+				&__average-img {
+					grid-row-start: 2;
+					grid-column-start: 1;
+					grid-row-end: 3;
+					grid-column-end: 2;
+				}
+				&__small-img {
+					padding-top: 0;
+					width: 80%;
+					grid-row-start: 2;
+					grid-column-start: 2;
+					grid-row-end: 3;
+					grid-column-end: 3;
+				}
+			}
+			& .interior-text {
+				&__box {
+					max-width: 32rem;
+				}
+				&__title {
+					font-size: 2.4rem;
+					line-height: 1.21;
+					margin-bottom: 1.8rem;
+				}
+				&__desc {
+					font-size: 1.3rem;
+					line-height: 1.41;
+					margin-bottom: 2.1rem;
+				}
+				&__inner {
+					justify-content: space-between;
+					& span {
+						width: 12.4rem;
+						padding-left: .3rem;
+						font-size: 1.4rem;
+						line-height: 1.36;
+						margin-bottom: 2.4rem;
+						&:nth-child(3) {
+							margin-bottom: 0;
+						}
+						&:nth-child(4) {
+							margin-bottom: 0;
+						}
+						&:before {
+							width: 0.7rem;
+							height: 0.7rem;
+							border: 1.5px solid rgba(59, 93, 80, 1);
+							top: 8px;
+							left: -9px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// ===================Card===================
 }
