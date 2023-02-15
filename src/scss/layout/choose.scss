@@ -62,10 +62,14 @@
 		font-size: 1.4rem;
 		line-height: 1.5;
 		color: $colorPrymary;
-		margin-bottom: .9rem;
+		margin-bottom: 0.9rem;
 	}
 	&__desc {
 		min-height: 6.6rem;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.57;
+		color: $colorText;
 	}
 }
 .choose-img {
@@ -76,14 +80,14 @@
 		width: 29.6rem;
 		height: 30.7rem;
 		left: -32rem;
-    top: 11.3rem;
+		top: 11.3rem;
 		background: rgba(53, 115, 110, 0.1);
 		border-radius: 2rem;
 	}
 	&__img-dots {
 		position: absolute;
 		top: -64px;
-    left: -94px;
+		left: -94px;
 		z-index: 2;
 	}
 	&__img-ibg {

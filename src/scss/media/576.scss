@@ -1,0 +1,163 @@
+@media (max-width: 576px) {
+	.presentation {
+		height: 50rem;
+		&__container {
+			display: flex;
+			align-content: center;
+			flex-direction: column;
+			flex-wrap: wrap;
+			min-height: 35rem;
+		}
+		&__title {
+			text-align: center;
+		}
+		&__buttons-box {
+			margin-bottom: 3rem;
+		}
+		&__img-wrp {
+			height: 20rem;
+			margin-left: 0;
+			& .img-sofa-ibg {
+				width: 60%;
+				height: 23rem;
+				top: -21px;
+				left: 55px;
+			}
+			& .img-dotted {
+				min-height: 7rem;
+				top: 0.1rem;
+				right: 11.5rem;
+			}
+		}
+	}
+	// ================Craft====================
+	.craft {
+		&__container {
+			display: flex;
+			margin-bottom: 16.2rem;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 10rem;
+			.craft-left {
+				&__wrp {
+					max-width: 504px;
+					text-align: center;
+					margin-bottom: 4rem;
+				}
+				&__title {
+					font-size: 3rem;
+					& br {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	// ================Choose====================
+	.choose {
+		height: 56rem;
+		&__container {
+			display: flex;
+			flex-direction: column;
+		}
+		&__benefits-holder {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		&__title {
+			font-size: 3rem;
+		}
+		&__desc {
+			text-align: center;
+			margin-bottom: 2rem;
+			min-width: 50rem;
+		}
+	}
+	.choose-benefits {
+		&__inner {
+			display: flex;
+			justify-content: center;
+			max-width: 50rem;
+			gap: 4rem;
+		}
+		&__box {
+			position: relative;
+			z-index: 4;
+			min-height: 26rem;
+			&:nth-child(3) {
+				padding-top: 1.7rem;
+			}
+			&:nth-child(4) {
+				padding-top: 1.7rem;
+			}
+		}
+		&__desc {
+			font-size: 1.3rem;
+			line-height: 1.35;
+		}
+	}
+	.choose-img {
+		margin-bottom: 0;
+		width: 50rem;
+		height: 0;
+		&__img-rectangle {
+			left: 3rem;
+			top: -13.7rem;
+			opacity: 0.6;
+		}
+		&__img-dots {
+			top: -336px;
+			left: 411px;
+			opacity: 0.6;
+		}
+		&__img-ibg {
+			background: $mainColor;
+			height: 37rem;
+			top: -262px;
+			left: 196px;
+			filter: grayscale(60%) opacity(0.6);
+		}
+	}
+	// ================Interior====================
+	.interior {
+		margin-bottom: 16.8rem;
+		&__container {
+			.interior-img {
+				& img {
+				}
+				&__box {
+				}
+				&__dot-img {
+				}
+				&__big-img {
+				}
+				&__average-img {
+				}
+				&__line {
+				}
+				&__small-img {
+				}
+			}
+			& .interior-text {
+				&__box {
+				}
+				&__title {
+				}
+				&__desc {
+				}
+				&__inner {
+					& span {
+						&:nth-child(3) {
+						}
+						&:nth-child(4) {
+						}
+						&:before {
+						}
+					}
+				}
+			}
+		}
+	}
+}
