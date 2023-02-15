@@ -55,6 +55,7 @@
 	}
 	// ================Choose====================
 	.choose {
+    overflow: hidden;
 		height: 56rem;
 		&__container {
 			display: flex;
@@ -72,7 +73,7 @@
 		&__desc {
 			text-align: center;
 			margin-bottom: 2rem;
-			min-width: 50rem;
+			max-width: 50rem;
 		}
 	}
 	.choose-benefits {
@@ -80,7 +81,7 @@
 			display: flex;
 			justify-content: center;
 			max-width: 50rem;
-			gap: 4rem;
+			gap: 3rem;
 		}
 		&__box {
 			position: relative;
@@ -100,7 +101,8 @@
 	}
 	.choose-img {
 		margin-bottom: 0;
-		width: 50rem;
+    max-width: 50rem;
+		width: 100%;
 		height: 0;
 		&__img-rectangle {
 			left: 3rem;
@@ -253,7 +255,7 @@
 			max-width: 50rem;
 		}
 		&__input {
-			max-width: 20rem;
+			max-width: 17rem;
 		}
 		&__input-name {
 			max-width: 100%;

@@ -1,0 +1,339 @@
+@media (max-width: 480px) {
+	.presentation {
+		height: 50rem;
+		&__container {
+			display: flex;
+			align-content: center;
+			flex-direction: column;
+			flex-wrap: wrap;
+			min-height: 35rem;
+		}
+		&__title {
+			text-align: center;
+		}
+		&__buttons-box {
+			margin-bottom: 3rem;
+		}
+		&__img-wrp {
+			height: 20rem;
+			margin-left: 0;
+			& .img-sofa-ibg {
+				width: 60%;
+				height: 23rem;
+				top: -21px;
+				left: 55px;
+			}
+			& .img-dotted {
+				min-height: 7rem;
+				top: 0.1rem;
+				right: 11.5rem;
+			}
+		}
+	}
+	// ================Craft====================
+	.craft {
+		&__container {
+			display: flex;
+			margin-bottom: 16.2rem;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 10rem;
+			.craft-left {
+				&__wrp {
+					max-width: 504px;
+					text-align: center;
+					margin-bottom: 4rem;
+				}
+				&__title {
+					font-size: 3rem;
+					& br {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	// ================Choose====================
+	.choose {
+		height: 56rem;
+		&__container {
+			display: flex;
+			flex-direction: column;
+		}
+		&__benefits-holder {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+		&__title {
+			font-size: 3rem;
+		}
+		&__desc {
+			text-align: center;
+			margin-bottom: 2rem;
+			min-width: 50rem;
+		}
+	}
+	.choose-benefits {
+		&__inner {
+			display: flex;
+			justify-content: center;
+			max-width: 50rem;
+			gap: 4rem;
+		}
+		&__box {
+			position: relative;
+			z-index: 4;
+			min-height: 26rem;
+			&:nth-child(3) {
+				padding-top: 1.7rem;
+			}
+			&:nth-child(4) {
+				padding-top: 1.7rem;
+			}
+		}
+		&__desc {
+			font-size: 1.3rem;
+			line-height: 1.35;
+		}
+	}
+	.choose-img {
+		margin-bottom: 0;
+		width: 50rem;
+		height: 0;
+		&__img-rectangle {
+			left: 3rem;
+			top: -13.7rem;
+			opacity: 0.6;
+		}
+		&__img-dots {
+			top: -336px;
+			left: 411px;
+			opacity: 0.6;
+		}
+		&__img-ibg {
+			background: $mainColor;
+			height: 37rem;
+			top: -262px;
+			left: 196px;
+			filter: grayscale(60%) opacity(0.6);
+		}
+	}
+	// ================Interior====================
+	.interior {
+		position: relative;
+		margin-bottom: 7.8rem;
+		&__container {
+			position: relative;
+			display: flex;
+			flex-direction: column-reverse;
+			align-items: center;
+			.interior-img {
+				&__box {
+					position: absolute;
+					top: 107px;
+					right: 38px;
+					display: grid;
+					grid-template-rows: 1fr 1fr;
+					grid-template-columns: 1fr 1fr 1fr;
+					gap: 0.8rem;
+					max-width: 50rem;
+					height: 30rem;
+					opacity: 0.2;
+				}
+				&__big-img {
+					max-width: 33rem;
+					height: 30rem;
+					width: 100%;
+					grid-row-start: 1;
+					grid-column-start: 1;
+					grid-row-end: 3;
+					grid-column-end: 3;
+				}
+				&__average-img {
+					max-width: 16.5rem;
+					width: 100%;
+					min-height: 19.2rem;
+					grid-row-start: 1;
+					grid-column-start: 3;
+					grid-row-end: 2;
+					grid-column-end: 4;
+				}
+				&__small-img {
+					max-width: 10rem;
+					width: 100%;
+					grid-row-start: 2;
+					grid-column-start: 3;
+					grid-row-end: 3;
+					grid-column-end: 4;
+				}
+			}
+			& .interior-text {
+				&__box {
+					max-width: 50rem;
+					text-align: center;
+				}
+				&__title {
+					font-size: 2.7rem;
+				}
+				&__desc {
+					font-size: 1.3rem;
+					line-height: 1.35;
+				}
+				&__inner {
+					padding-bottom: 11.8rem;
+					margin-bottom: 0;
+					& span {
+						margin-bottom: 0;
+						&:before {
+							left: 4px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// ===============Card-Item====================
+	.card-item {
+		&__container {
+			display: flex;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 2.5rem;
+			margin-bottom: 6.5rem;
+		}
+		&__inner {
+			justify-content: flex-end;
+			max-width: 50rem;
+			min-height: 10.5rem;
+			margin-right: 7rem;
+			&::after {
+				width: 98px;
+				height: 98px;
+				left: 60px;
+				top: 18px;
+			}
+		}
+		&__img-nordic {
+			height: 12.5rem;
+		}
+		&__text {
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+			padding-top: 0;
+			max-width: 30.1rem;
+			text-align: center;
+		}
+		&__title {
+			font-size: 1.4rem;
+			line-height: 1.57;
+			margin-bottom: 1.1rem;
+		}
+		&__desc {
+			font-size: 1.4rem;
+			line-height: 1.57;
+			margin-bottom: 1.1rem;
+		}
+		&__link {
+			font-size: 1.2rem;
+			line-height: 1.83;
+		}
+		& img {
+			padding-right: 13rem;
+		}
+	}
+	// ===============Form====================
+	.form-example {
+		padding-top: 5.7rem;
+		margin-bottom: 5.8rem;
+		&__inner {
+			max-width: 50rem;
+		}
+		&__input {
+			max-width: 20rem;
+		}
+		&__input-name {
+			max-width: 100%;
+		}
+		&__input-email {
+			max-width: 100%;
+		}
+	}
+	// ===============Footer====================
+	.footer {
+		min-height: 50.7rem;
+		&__container {
+		}
+		&__img {
+			top: -5rem;
+			left: 40.7rem;
+		}
+		&__logo {
+			margin-bottom: 1rem;
+		}
+		&__text-inner {
+      flex-direction: column;
+			min-height: 11.2rem;
+			margin-bottom: 4.5rem;
+      align-items: center;
+      gap: 1rem;
+			& .text-desc {
+				padding-top: 1rem;
+				margin-right: 0;
+				max-width: 50rem;
+        width: 100%;
+        text-align: center;
+			}
+		}
+		&__nav {
+			& .list-about {
+				margin-right: 2rem;
+				width: 7.2rem;
+			}
+		}
+		&__social {
+			justify-content: center;
+			gap: 5.1rem;
+			margin-bottom: 3.8rem;
+		}
+		&__copyright {
+      align-items: flex-end;
+			justify-content: space-between;
+		}
+	}
+	.nav {
+		&__list {
+			max-width: 11rem;
+			&:nth-child(2) {
+				margin-right: 2.4rem;
+			}
+			&:nth-child(3) {
+				margin-right: 2rem;
+			}
+		}
+		&__item {
+			margin-top: 0.1rem;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 1.7;
+		}
+	}
+	.copyright {
+		&__left-text {
+      text-align: center;
+			font-weight: 400;
+			font-size: 1.3rem;
+			line-height: 1.85;
+		}
+		&__right-text {
+      flex-direction: column;
+      gap: 0;
+			& a {
+				line-height: 1.51;
+			}
+		}
+	}
+}
