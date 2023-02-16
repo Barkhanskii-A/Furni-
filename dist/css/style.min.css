@@ -1040,42 +1040,6 @@ sup {
   font-style: italic;
 }
 
-/*<section class="slider">
-<div class="slider__container">
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <div class="slide__icon">
-          <img src="../images/icons/twiter.png" alt="">
-        </div>
-        <h3 class="slide__title">AOD New York @aod <span>/ 35 min</span></h3>
-        <p class="slide__text">1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
-          nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
-      </div>
-      <div class="swiper-slide">
-        <div class="slide__icon">
-          <img src="../images/icons/twiter.png" alt="">
-        </div>
-        <h3 class="slide__title">AOD New York @aod <span>/ 35 min</span></h3>
-        <p class="slide__text">2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
-          nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
-      </div>
-      <div class="swiper-slide">
-        <div class="slide__icon">
-          <img src="../images/icons/twiter.png" alt="">
-        </div>
-        <h3 class="slide__title">AOD New York @aod <span>/ 35 min</span></h3>
-        <p class="slide__text">3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac
-          nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
-      </div>
-    </div>
-    <div class="swiper-pagination"></div>
-  </div>
-</div>
-  <!-- Стрелки -->
-  <!-- <div class="swiper-button-next"></div>
-       <div class="swiper-button-prev"></div> -->
-</section> */
 .swiper {
   height: 100%;
 }
