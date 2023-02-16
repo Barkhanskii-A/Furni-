@@ -100,10 +100,12 @@
 		color: $colorBlack;
 		margin-bottom: 4.2rem;
 		&::before {
-			content: '"';
+			content: '\201c';
+			font-size: 2rem;
 		}
 		&::after {
-			content: '"';
+			content: '\201d';
+			font-size: 1.8rem;
 		}
 	}
 	&__icon {

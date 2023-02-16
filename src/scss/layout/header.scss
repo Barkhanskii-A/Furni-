@@ -87,6 +87,15 @@
 					left: 0;
 				}
 			}
+			@media (max-width: 480px) {
+				&__body {
+					position: absolute;
+					width: 100%;
+					height: 47rem;
+					top: -100%;
+					left: 0;
+				}
+			}
 		}
 		.hamburger {
 			display: none;
